@@ -9,7 +9,7 @@ const searchText=document.getElementById('search_text');
 const getmovieinfo = async (movie) =>
     {
     const myapi='6d4b3add'
-    const url =`http://www.omdbapi.com/?apikey=${myapi}&t=${movie}`;
+    const url =`https://www.omdbapi.com/?apikey=${myapi}&t=${movie}`;
 
     try {
         const response = await fetch(url);
